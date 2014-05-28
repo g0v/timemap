@@ -18,7 +18,7 @@ jQuery(function($) {
     var url = window.location.href.replace(/#.*$/, "") + '?embed=1'; // for now, just remove any fragment id
     var val = '<iframe src="' + url + '" frameborder="0" style="border: none;" width="100%" height="780;"></iframe>';
     $('.embed-modal textarea').val(val);
-    $('.embed-modal').modal();  
+    $('.embed-modal').modal();
   });
 });
 
@@ -253,10 +253,37 @@ var TimeMapperView = Backbone.View.extend({
     this.timeline.render();
   },
 
+  initMap: function(){
+    var overlayers = {};
+    var mapUrl = "//otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png";
+    var osmAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="//developer.mapquest.com/content/osm/mq_logo.png">';
+    var bg = new L.TileLayer(mapUrl, {maxZoom: 18, attribution: osmAttribution ,subdomains: '1234'});
+    this.map.addLayer(bg);
+    var overlaps = {
+      tainan_1875: {
+        show: true,
+        layer: new L.RCHSS.Tainan_1875({opacity:0.75})
+      },
+      tainan_1986: {
+        show: false,
+        layer: new L.RCHSS.Tainan_1986({opacity:0.85})
+      }
+    };
+
+    for(var k in overlaps){
+      if(overlaps[k].show){
+        this.map.addLayer(overlaps[k].layer);
+      }
+      overlayers[overlaps[k].layer.name] = overlaps[k].layer
+    }
+    this.map.addControl(new L.Control.Layers({'OSM': bg}, overlayers));
+  },
+
   _setupMap: function() {
     this.map = new recline.View.Map({
       model: this.model
     });
+    this.map.initMap = this.initMap;
     this.$el.find('.map').append(this.map.el);
 
     // customize with icon column
@@ -302,7 +329,7 @@ var TimeMapperView = Backbone.View.extend({
         });
         marker.setIcon(eventIcon);
       }
-      
+
       // this is for cluster case
       // this.markers.addLayer(marker);
 
