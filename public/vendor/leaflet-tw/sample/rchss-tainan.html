@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>台南百年地圖</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="./leaflet-osm.js"></script>
+        <script src="../lib/rchss.js"></script>
+        <style>
+        #map { height: 100%; width:100% }
+        </style>
+    </head>
+    <body>
+<div id="map"></div>
+<script type='text/ls'>
+
+mkmap = -> 
+    new L.RCHSS[it] {opacity:0.65}
+
+osm = new L.OSM.Mapnik
+mapnames = 
+    'Tainan_1875'
+    'Tainan_1875B'
+    'Tainan_1895'
+    'Tainan_1895c'
+    'Tainan_1896'
+    'Tainan_1900'
+    'JM20K_1904'
+    'Tainan_1907B'
+    'Tainan_1911'
+    'Tainan_1915'
+    'Tainan_1918'
+    'Tainan_1920'
+    'Tainan_1924'
+    'Tainan_1935'
+    'Tainan_1936'
+    'Tainan_1939'
+    'Tainan_1945'
+    'AMCityPlan_1945'
+    'Tainan_1946'
+    'Tainan_1951'
+    'Tainan_1959'
+    'Tainan_1971'
+    'Tainan_1974'
+    'Tainan_1982'
+    'Tainan_1984'
+    'Tainan_1986'
+
+
+maps={}
+overlayMaps = {}
+
+for e in mapnames
+    maps[e.toLowerCase!] = mkmap e
+
+for k, m of maps
+    overlayMaps[m.name] = m 
+
+map = ((new L.Map 'map', {
+  center: new L.LatLng 22.9920289, 120.20462829999997
+  zoom: 15
+  layers: [osm, maps.tainan_1875]
+}).addControl new L.Control.Scale).addControl new L.Control.Layers {'開放街圖': osm}, overlayMaps
+
+find_elements = (q, succes) ->
+    url = "http://nominatim.openstreetmap.org/search/?q=#{q}&polygon_geojson=1&format=json&json_callback=?"
+    $.getJSON url, succes
+        .fail -> console.log 'can not find element.'
+
+try_add_element = (m, q, f, done) ->
+    res <- find_elements q
+    done! unless res
+    e = f res
+    done! unless e
+    L.geoJson e.geojson,{} .addTo m .bindPopup q
+    done!
+
+mk_marker = (m, name, gps) -> 
+    L.marker gps .addTo m .bindPopup name
+
+<- try_add_element map, '西門遺址', -> it.0
+<- try_add_element map, '大南門', -> it.0
+<- try_add_element map, '東門城', -> it.0
+<- try_add_element map, '小西門遺址', -> it.0
+
+mk_marker map, "兌悅門", [23.0007511428658, 120.194367749974] 
+mk_marker map, "大東門", [22.9870755236531, 120.217285049648] 
+
+ps = 
+    [22.9870755236531, 120.217285049648] 
+    [22.9870004482941, 120.203560218288]
+
+</script>
+<script src="./livescript.js"></script>
+    </body>
+</html>
