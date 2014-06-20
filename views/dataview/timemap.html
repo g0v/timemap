@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block bodyclass %}{{ gettext('view') }}{% if embed %} {{ gettext('embed') }}{% endif %}{% endblock %}
+{% block bodyclass %} view {% if embed %} {{ gettext('embed') }}{% endif %}{% endblock %}
 
 {% block extrahead %}
   <!-- Open links in new window/tab by default -->
