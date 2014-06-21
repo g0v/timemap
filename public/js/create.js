@@ -6,6 +6,14 @@ jQuery(function($) {
   $(".gdrive-import").click(onGdriveImportClick);
   $input.change(onUrlChange);
   $('.js-demo-sheet').click(onDemoSheetClick);
+  $("input[name='tmconfig[viewtype]']").click(function(){
+    if($(this).val().match(/map/)){
+      $(".maplayer").slideDown();
+    }
+    else{
+      $(".maplayer").slideUp();
+    }
+  });
 
   // we will assume this always loads prior to anyone hitting the drive button
   // (if not we would need to double-checker picker is loaded in drive stuff)

@@ -71,6 +71,29 @@
         </span>
       </div>
     </div>
+    <div class="control-group maplayer">
+      <label class="control-label">
+        {{ gettext('Choose default map layer') }}
+      </label>
+      <div class="controls">
+        {% for val in ['臺灣府城街道圖(1875)', '臺南市都市計畫圖(藍曬)(1986)'] %}
+        <label class="radio">
+          <input
+            type="radio"
+            name="tmconfig[maplayer]"
+            value="{{val}}"
+            {% if dataview.tmconfig.maplayer == val %}
+            checked="true"
+            {% endif %}
+            />
+          {{ val[0].toUpperCase() + val.slice(1) }}
+        </label>
+        {% endfor %}
+        <span class="help-block">
+          {{ gettext('Choose map layer, map layer will be background of your location.') }}
+        </span>
+      </div>
+    </div>
 
     <h4 style="text-align: center;">{{ gettext('More Options') }}</h4>
     <div class="control-group">
