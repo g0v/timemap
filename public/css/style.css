@@ -241,13 +241,13 @@ body.view .navbar ul.nav.pull-right {
 .data-views .timeline-pane {
   margin: 0;
   padding: 0;
-  width: 66.66%;
+  width: 55%;
   float: left;
 }
 .data-views .map-pane {
   margin: 0;
   padding: 0;
-  width: 33.33%;
+  width: 45%;
   float: left;
 }
 
