@@ -14,6 +14,7 @@ jQuery(function($) {
       $(".maplayer").slideUp();
     }
   });
+  $("select.chosen").chosen({width: "400px", search_contains: true});
 
   // we will assume this always loads prior to anyone hitting the drive button
   // (if not we would need to double-checker picker is loaded in drive stuff)
