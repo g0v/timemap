@@ -263,7 +263,7 @@ var TimeMapperView = Backbone.View.extend({
 
       for(var i=0;i<datapackage.tmconfig.maplayer_available.length;i++){
         var mapid = datapackage.tmconfig.maplayer_available[i];
-        var layer = new L.RCHSS[mapid]({opacity:0.75});
+        var layer = new L.RCHSS[mapid]({opacity:0.35});
         if(mapid == datapackage.tmconfig.maplayer){
           this.map.addLayer(layer);
         }
