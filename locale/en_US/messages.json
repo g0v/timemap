@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-05-31 17:46+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: English\nLanguage: en_US\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-21 15:11+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: English\nLanguage: en_US\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
       },
       "It's free and easy to use": [
          null,
@@ -424,6 +424,22 @@
          ""
       ],
       "Or paste the Google Spreadsheet URL directly": [
+         null,
+         ""
+      ],
+      "Default Map Layer": [
+         null,
+         ""
+      ],
+      "Choose map layer, map layer will be background of your location.": [
+         null,
+         ""
+      ],
+      "Available Map Layer": [
+         null,
+         ""
+      ],
+      "Visitor can select different map layer you picked here.": [
          null,
          ""
       ]

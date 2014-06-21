@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-31 17:46+0000\n"
+"POT-Creation-Date: 2014-06-21 15:11+0000\n"
 "PO-Revision-Date: 2014-05-30 21:10+0800\n"
 "Last-Translator: 陳信屹 <ossug.hychen@gmail.com>\n"
 "Language-Team: Chinese (traditional)\n"
@@ -11,63 +11,83 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:14
+#: /private/tmp/timemapper/views/index.html:14
 msgid "It's free and easy to use"
 msgstr "簡單且容易使用"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:15
+#: /private/tmp/timemapper/views/index.html:15
 msgid "Get started now"
 msgstr "現在就開始使用"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:21
+#: /private/tmp/timemapper/views/index.html:21
 msgid "Watch the 1 minute Tutorial"
 msgstr "觀看一分鐘教學影片"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:27
+#: /private/tmp/timemapper/views/index.html:27
 msgid "Examples"
 msgstr "範例"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:50
+#: /private/tmp/timemapper/views/index.html:50
 msgid "How It Works"
 msgstr "如何使用"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:54
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:17
+#: /private/tmp/timemapper/views/dataview/create.html:18
+#: /private/tmp/timemapper/views/index.html:54
 msgid "1. Create a Spreadsheet"
 msgstr "1. 建立一份列表"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:55
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:18
+#: /private/tmp/timemapper/views/dataview/create.html:19
+#: /private/tmp/timemapper/views/index.html:55
 msgid "Add your dates and places to a Google Spreadsheet."
 msgstr "在Google試算表加上時間跟地址。"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:60
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:23
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:68
+#: /private/tmp/timemapper/views/dataview/create.html:24
+#: /private/tmp/timemapper/views/dataview/create.html:69
+#: /private/tmp/timemapper/views/index.html:60
 msgid "2. Connect and Customize"
 msgstr "2. 綁定跟客製化"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:61
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:24
+#: /private/tmp/timemapper/views/dataview/create.html:25
+#: /private/tmp/timemapper/views/index.html:61
 msgid "Connect your spreadsheet with TimeMapper and customize the results."
 msgstr "將TimeMapper跟你的Google試算表綁在一起並且客製化結果。"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:66
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:29
+#: /private/tmp/timemapper/views/dataview/create.html:30
+#: /private/tmp/timemapper/views/index.html:66
 msgid "3. Publish, Embed and Share"
 msgstr "3. 公佈，嵌入，以及分享"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:67
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:30
+#: /private/tmp/timemapper/views/dataview/create.html:31
+#: /private/tmp/timemapper/views/index.html:67
 msgid ""
 "Publish your TimeMap at your own personal url, then share or embed on your "
 "site."
 msgstr "用你的專屬網址公佈你的TimeMap，然後分享或嵌入在你的網站上。"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:72
+#: /private/tmp/timemapper/views/index.html:72
 msgid "Credits"
 msgstr "鳴謝"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
+#: /private/tmp/timemapper/views/index.html:74
 msgid ""
 "TimeMapper is an open-source project of <a href=\"http://okfnlabs.org/"
 "\">Open Knowledge Foundation Labs</a>."
@@ -76,6 +96,7 @@ msgstr ""
 "a>的開源碼專案。"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
+#: /private/tmp/timemapper/views/index.html:74
 msgid ""
 "It is possible thanks to a set of awesome open-source components including "
 "<a href=\"http://timeline.verite.co/\">TimelineJS</a>, <a href=\"http://"
@@ -87,24 +108,29 @@ msgid ""
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:8
+#: /private/tmp/timemapper/views/dataview/create.html:9
 msgid "Create your"
 msgstr "建立你的"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:40
+#: /private/tmp/timemapper/views/dataview/create.html:41
 #, fuzzy
 msgid "Let's Get Started"
 msgstr "現在就開始使用"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:44
+#: /private/tmp/timemapper/views/dataview/create.html:45
 #, fuzzy
 msgid "1. Create your Spreadsheet"
 msgstr "1. 建立一份試算表"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:46
+#: /private/tmp/timemapper/views/dataview/create.html:47
 msgid "if you don't have one already!"
 msgstr "如果你還沒有!"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:51
+#: /private/tmp/timemapper/views/dataview/create.html:52
 msgid ""
 "Get started by copying <strong><a href=\"https://docs.google.com/a/okfn.org/"
 "spreadsheet/ccc?key=0AqR8dXc6Ji4JdFRNOTVYYTRqTmh6TUNNd3U2X2pKMGc#gid=0\"></"
@@ -113,37 +139,46 @@ msgid ""
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:54
+#: /private/tmp/timemapper/views/dataview/create.html:55
 msgid "Impatient to try this out but don't have a spreadsheet yet?"
 msgstr "受不了想立刻試用但還有沒試算表?"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:57
+#: /private/tmp/timemapper/views/dataview/create.html:58
 msgid "Click here to use a pre-prepared example"
 msgstr "點擊這裡使用我們事先準備的範例"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:72
+#: /private/tmp/timemapper/views/dataview/create.html:73
 msgid ""
 "ALERT: you are <strong>not signed in</strong> so your timemap will be "
 "created <strong>'anonymously'</strong>."
 msgstr "警告：你<strong>尚未登入</strong>，所以你的timemap會以匿名方式建立。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:88
+#: /private/tmp/timemapper/views/dataview/create.html:89
 msgid "3. Let's Publish It!"
 msgstr "3. 發佈它"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:92
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:116
+#: /private/tmp/timemapper/views/dataview/create.html:93
+#: /private/tmp/timemapper/views/dataview/create.html:117
 msgid "Publish"
 msgstr "發佈"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:105
+#: /private/tmp/timemapper/views/dataview/create.html:106
 msgid "FAQ"
 msgstr "常見問題"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:106
+#: /private/tmp/timemapper/views/dataview/create.html:107
 msgid "Can I make a timemap anonymously?"
 msgstr "我能匿名使用嗎?"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:75
+#: /private/tmp/timemapper/views/dataview/create.html:76
 msgid ""
 "If want to 'own' your timemap you should <a href=\"/account/login\">sign in "
 "(or sign-up) now &raquo;</a>"
@@ -152,6 +187,7 @@ msgstr ""
 "&raquo;</a>"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:77
+#: /private/tmp/timemapper/views/dataview/create.html:78
 msgid ""
 "(Sign-up takes a few seconds with your  <a href=\"/account/login\">twitter "
 "account &raquo;</a>)"
@@ -160,6 +196,7 @@ msgstr ""
 "要幾秒鐘)"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:107
+#: /private/tmp/timemapper/views/dataview/create.html:108
 msgid ""
 "Yes! You do not need an account to create a timemap - they can be created "
 "anonymously and will have all the same features and shareability of normal "
@@ -171,6 +208,7 @@ msgstr ""
 "處。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:109
+#: /private/tmp/timemapper/views/dataview/create.html:110
 msgid ""
 "You'll get a nice URL for your timemap at <code>/your-username/a-name-you-"
 "choose-for-your-timemap</code>"
@@ -179,11 +217,13 @@ msgstr ""
 "有專屬的URL"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:110
+#: /private/tmp/timemapper/views/dataview/create.html:111
 msgid ""
 "All of your timemaps will be nicely listed at <code>/your-username</code>"
 msgstr "你所有的timemaps會列在<code>/your-username</code>"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:111
+#: /private/tmp/timemapper/views/dataview/create.html:112
 msgid ""
 "As you'll be identified as the owner you'll be able to re-configure (or "
 "delete) your timemap later"
@@ -191,18 +231,22 @@ msgstr ""
 "當你能被辯認為timemap的擁有者時，之後你將能夠重新設定(或是刪除) 你的timemap"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
+#: /private/tmp/timemapper/views/dataview/create.html:115
 msgid "If you do want an account, signup is very easy"
 msgstr "你果你真的想要一個帳號，註冊非常簡單"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
+#: /private/tmp/timemapper/views/dataview/create.html:115
 msgid "it takes just 15 seconds, is very secure, and uses your Twitter account"
 msgstr "使用你的Twitter帳號，只需要15秒，非常安全"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
+#: /private/tmp/timemapper/views/dataview/create.html:115
 msgid "(no need to think up a new username and password!)."
 msgstr "(不需要想新的使用者名稱跟密碼！)"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:117
+#: /private/tmp/timemapper/views/dataview/create.html:118
 msgid ""
 "Go to File Menu in your spreadsheet, then 'Publish to the Web', then click "
 "'Start Publishing'. This tutorial walks you through."
@@ -211,10 +255,12 @@ msgstr ""
 "走過一遍。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:121
+#: /private/tmp/timemapper/views/dataview/create.html:122
 msgid "What URL do I use to connect my spreadsheet?"
 msgstr "哪種網址才是用來綁定我的試算表"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:122
+#: /private/tmp/timemapper/views/dataview/create.html:123
 msgid ""
 "Use the URL you get by clicking your spreadsheet's <strong>Share</strong> "
 "button and copying the <strong>Link to share</strong> box."
@@ -222,6 +268,7 @@ msgstr ""
 "點擊你的試算表<strong>分享</strong>按鈕然後複製<strong>分享連結</strong>"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:124
+#: /private/tmp/timemapper/views/dataview/create.html:125
 msgid ""
 "Note that although you must also <strong>Publish to the web</strong>, "
 "TimeMapper does not use the URL found in the publication pop-up."
@@ -230,10 +277,12 @@ msgstr ""
 "視窗顯示的網址"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:126
+#: /private/tmp/timemapper/views/dataview/create.html:127
 msgid "What structure must the spreadsheet have?"
 msgstr "試算表要有怎樣的結構？"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:127
+#: /private/tmp/timemapper/views/dataview/create.html:128
 msgid ""
 "TimeMapper recognizes certain columns with specific names. The best overview "
 "of these columns is <a href=\"https://docs.google.com/a/okfn.org/spreadsheet/"
@@ -242,6 +291,7 @@ msgid ""
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:129
+#: /private/tmp/timemapper/views/dataview/create.html:130
 msgid ""
 "Not all fields are required. The only required fields are <b>Title</b> and "
 "<b>Start</b> fields, and even <b>Start</b> can be omitted if you just want a "
@@ -253,16 +303,19 @@ msgstr ""
 "數量的其他欄位"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:131
+#: /private/tmp/timemapper/views/dataview/create.html:132
 msgid "How do I format dates?"
 msgstr "日期要怎麼寫？"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:132
+#: /private/tmp/timemapper/views/dataview/create.html:133
 msgid ""
 "The preferred date format is ISO 8601 (YYYY-MM-DD), but TimeMapper "
 "recognizes most types of date."
 msgstr "日期格式是ISO 8601 (YYYY-MM-DD)，但TimeMapper能辨認更多日期形式。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:134
+#: /private/tmp/timemapper/views/dataview/create.html:135
 msgid ""
 "If a date's month and day are ambiguous (e.g. is 08-03-1798 UK notation for "
 "8 March, or is it US notation for 3 August?), by default, the first number "
@@ -276,16 +329,19 @@ msgstr ""
 "換。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:136
+#: /private/tmp/timemapper/views/dataview/create.html:137
 msgid "What kinds of geodata are supported?"
 msgstr "支援哪幾種 geodata？"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:137
+#: /private/tmp/timemapper/views/dataview/create.html:138
 msgid ""
 "The <b>Location</b> column accepts two types of geodata: latitude-longitude "
 "coordinates or GeoJSON objects."
 msgstr "<b>Location</b> 欄位接受兩種 geodata: 經緯度或是GeoJSON物件"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:139
+#: /private/tmp/timemapper/views/dataview/create.html:140
 msgid ""
 "Coordinates must be in the format <emph>lat, long</emph> (e.g. <emph>37.5, "
 "-122</emph>). The <a href=\"https://docs.google.com/a/okfn.org/spreadsheet/"
@@ -304,6 +360,7 @@ msgstr ""
 "post</a>."
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:141
+#: /private/tmp/timemapper/views/dataview/create.html:142
 msgid ""
 "Advanced users who want to go beyond simple coordinates can use GeoJSON "
 "feature objects. For an example, see this blog post on adding <a href="
@@ -315,30 +372,37 @@ msgstr ""
 "koordinates/\">GeoJSON 國家邊界</a>。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:13
+#: /private/tmp/timemapper/views/dataview/create.html:14
 msgid "It's as easy as 1-2-3!"
 msgstr "1-2-3 超簡單"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:5
+#: /private/tmp/timemapper/views/dataview/edit.html:5
 msgid "Edit - "
 msgstr "修改 - "
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:10
+#: /private/tmp/timemapper/views/dataview/edit.html:10
 msgid "Edit your "
 msgstr "修改你的 "
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:3
+#: /private/tmp/timemapper/views/dashboard.html:3
 msgid "Dashboard"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:8
+#: /private/tmp/timemapper/views/dashboard.html:8
 msgid "Hi there"
 msgstr "你好"
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:13
+#: /private/tmp/timemapper/views/dashboard.html:13
 msgid "Create a new Timeline or TimeMap"
 msgstr "建立新的時間軸或時間地圖"
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:17
+#: /private/tmp/timemapper/views/dashboard.html:17
 msgid "Your Existing TimeMaps"
 msgstr "你目前的時間地圖"
 
@@ -347,89 +411,110 @@ msgid "view"
 msgstr "檢視"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:3
+#: /private/tmp/timemapper/views/dataview/timemap.html:3
 msgid "embed"
 msgstr "嵌入"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:42
+#: /private/tmp/timemapper/views/dataview/timemap.html:42
 msgid "Embed"
 msgstr "嵌入"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:47
+#: /private/tmp/timemapper/views/dataview/timemap.html:47
 #, fuzzy
 msgid "Edit"
 msgstr "修改"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:67
+#: /private/tmp/timemapper/views/dataview/timemap.html:67
 msgid "Search data ..."
 msgstr "搜尋資料中..."
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:87
+#: /private/tmp/timemapper/views/dataview/timemap.html:87
 msgid "Embed Instructions"
 msgstr "嵌入方式"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:90
+#: /private/tmp/timemapper/views/dataview/timemap.html:90
 msgid "Copy and paste the following into your web page"
 msgstr "將下面複製貼上到你的網頁"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:96
+#: /private/tmp/timemapper/views/dataview/timemap.html:96
 msgid "Loading data..."
 msgstr "讀取資料中..."
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:100
+#: /private/tmp/timemapper/views/dataview/timemap.html:100
 msgid "using"
 msgstr "使用"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:103
 #: /Users/hychen/github/hychen/timemapper/views/base.html:85
+#: /private/tmp/timemapper/views/base.html:85
+#: /private/tmp/timemapper/views/dataview/timemap.html:103
 msgid "License"
 msgstr "授權條款"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:106
+#: /private/tmp/timemapper/views/dataview/timemap.html:106
 msgid "Source Data"
 msgstr "來源資料"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:3
+#: /private/tmp/timemapper/views/dataview/form.html:3
 msgid "Data Source"
 msgstr "資料來源"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:6
+#: /private/tmp/timemapper/views/dataview/form.html:6
 msgid "Select from Your Google Drive"
 msgstr "從你的 Google Drive 選擇"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:7
+#: /private/tmp/timemapper/views/dataview/form.html:7
 msgid "If nothing happens check you are not blocking popups ..."
 msgstr "如果什麼事都沒發生，檢查你是否有擋彈跳視窗 ..."
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
+#: /private/tmp/timemapper/views/dataview/form.html:16
 msgid "Important"
 msgstr "重要"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
+#: /private/tmp/timemapper/views/dataview/form.html:16
 #, fuzzy
 msgid ""
 "you must \"publish\" your Google Spreadsheet: go to File Menu in your "
 "spreadsheet, then 'Publish to the Web', then click 'Start Publishing'. See"
 msgstr ""
-"到你的試算表的檔案選單，然後'公佈到網路上'，然後點'開始公佈'. 這份教學會"
-"帶你走過一遍。"
+"到你的試算表的檔案選單，然後'公佈到網路上'，然後點'開始公佈'. 這份教學會帶你"
+"走過一遍。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
+#: /private/tmp/timemapper/views/dataview/form.html:16
 msgid "the FAQ below"
 msgstr "常見問題如下"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
+#: /private/tmp/timemapper/views/dataview/form.html:16
 msgid "for more details"
 msgstr "更多細節"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:22
+#: /private/tmp/timemapper/views/dataview/form.html:22
 msgid "Title"
 msgstr "標題"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:35
+#: /private/tmp/timemapper/views/dataview/form.html:35
 msgid "Slug"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:46
+#: /private/tmp/timemapper/views/dataview/form.html:46
 msgid ""
 "The url of your new timemap. This must be different from the name for any of "
 "your existing timemaps. Choose wisely as this is hard to change!"
@@ -438,32 +523,39 @@ msgstr ""
 "改！"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:53
+#: /private/tmp/timemapper/views/dataview/form.html:53
 msgid "Type of Data View"
 msgstr "資料顯示方式"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:70
+#: /private/tmp/timemapper/views/dataview/form.html:70
 msgid ""
 "Choose the visualization type of your data - TimeMap (Timeline and Map "
 "combined), Timeline or Map."
 msgstr "選擇你資料的視覺化模式 - TimeMap (時間軸與地圖整合)，時間軸或地圖"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:75
+#: /private/tmp/timemapper/views/dataview/form.html:119
 msgid "More Options"
 msgstr "更多選項"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:78
+#: /private/tmp/timemapper/views/dataview/form.html:122
 msgid "Ambiguous Date Handling"
 msgstr "歧義時間處理"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:90
+#: /private/tmp/timemapper/views/dataview/form.html:134
 msgid "month first (US style)"
 msgstr "月份優先 (美國格式)"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:101
+#: /private/tmp/timemapper/views/dataview/form.html:145
 msgid "day first (non-US style)"
 msgstr "日子優先 (美國格式)"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:104
+#: /private/tmp/timemapper/views/dataview/form.html:148
 msgid ""
 "How to handle ambiguous dates like \"05/08/2012\" in source data (could be "
 "read as 5th August or 8th of May)."
@@ -471,28 +563,34 @@ msgstr ""
 "如何處理在來源資料裡像\"05/08/2012\"(可能念做八月五號或是五月八號)的日期。"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:106
+#: /private/tmp/timemapper/views/dataview/form.html:150
 msgid ""
 "If you do not have any dates formatted like this then you can ignore this!"
 msgstr "如果你的日期格式沒一個長得像這樣，你可以忽略這件事"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:112
+#: /private/tmp/timemapper/views/dataview/form.html:156
 msgid "Start from"
 msgstr "從何時開始"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:129
+#: /private/tmp/timemapper/views/dataview/form.html:173
 msgid "Where on the timeline should the user start."
 msgstr "為時間軸的起點"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:7
+#: /private/tmp/timemapper/views/base.html:7
 #, fuzzy
 msgid "TimeMapper - Make Timelines and TimeMaps fast!"
 msgstr "建立新的時間軸或時間地圖"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:8
+#: /private/tmp/timemapper/views/base.html:8
 msgid "from the Open Knowledge Foundation Labs"
 msgstr "由Open Knowledge Foundation Labs 開發"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:10
+#: /private/tmp/timemapper/views/base.html:10
 msgid ""
 "TimeMapper - Make Timelines and TimeMaps fast! - from the Open Knowledge "
 "Foundation Labs"
@@ -501,19 +599,24 @@ msgstr ""
 "發"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:37
+#: /private/tmp/timemapper/views/base.html:37
 msgid "An Open Knowledge Foundation Labs Project"
 msgstr "一個 Open Knowledge Foundation Labs 專案"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:52
 #: /Users/hychen/github/hychen/timemapper/views/base.html:80
+#: /private/tmp/timemapper/views/base.html:52
+#: /private/tmp/timemapper/views/base.html:80
 msgid "Contact Us"
 msgstr "聯絡我們"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:56
+#: /private/tmp/timemapper/views/base.html:56
 msgid "Report an Issue"
 msgstr "回報問題"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:80
+#: /private/tmp/timemapper/views/base.html:80
 #, fuzzy
 msgid ""
 "The <a href=\"http://timemapper.okfnlabs.org/\"><strong>TimeMapper</strong></"
@@ -524,54 +627,82 @@ msgstr ""
 "a>的開源碼專案。"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:81
+#: /private/tmp/timemapper/views/base.html:81
 msgid "TimeMapper is open-source"
 msgstr "TimeMapper是開放源碼"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:83
+#: /private/tmp/timemapper/views/base.html:83
 #, fuzzy
 msgid "Source Code"
 msgstr "來源資料"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:85
+#: /private/tmp/timemapper/views/base.html:85
 msgid "Copyright"
 msgstr "版權所有"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:80
+#: /private/tmp/timemapper/views/dataview/create.html:81
 msgid "Find out more on anonymous vs logged in"
 msgstr "了解更多匿名使用跟登入後使用的差別"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:80
+#: /private/tmp/timemapper/views/dataview/create.html:81
 #, fuzzy
 msgid "read FAQ below"
 msgstr "常見問題如下"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:30
+#: /private/tmp/timemapper/views/dataview/form.html:30
 msgid "Title for your View"
 msgstr "你的標題"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:43
+#: /private/tmp/timemapper/views/dataview/form.html:43
 msgid ""
 "The slug needs to be 'url-usable' and so must be lowercase containing only "
 "alphanumeric characters and '-'"
 msgstr "slug 必須是網址合法字元，所以只能是小寫英文字母跟'-'"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:9
+#: /private/tmp/timemapper/views/index.html:9
 msgid "Elegant timelines and maps created in seconds"
 msgstr "幾秒內就建立美觀的時間軸跟地圖"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:3
+#: /private/tmp/timemapper/views/dataview/create.html:4
 msgid "create"
 msgstr "建立"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:116
+#: /private/tmp/timemapper/views/dataview/create.html:117
 #, fuzzy
 msgid "Your Spreadsheet"
 msgstr "1. 建立一份試算表"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:16
+#: /private/tmp/timemapper/views/dataview/edit.html:16
 msgid "Update"
 msgstr "更新"
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:15
+#: /private/tmp/timemapper/views/dataview/form.html:15
 msgid "Or paste the Google Spreadsheet URL directly"
 msgstr "或者直接貼上Google試算表的網址"
+
+#: /private/tmp/timemapper/views/dataview/form.html:76
+msgid "Default Map Layer"
+msgstr "預設顯示的圖層"
+
+#: /private/tmp/timemapper/views/dataview/form.html:92
+msgid "Choose map layer, map layer will be background of your location."
+msgstr "選擇欲疊加的圖層，圖層將會成為你當前位置的背景"
+
+#: /private/tmp/timemapper/views/dataview/form.html:98
+msgid "Available Map Layer"
+msgstr "可用的圖層"
+
+#: /private/tmp/timemapper/views/dataview/form.html:114
+msgid "Visitor can select different map layer you picked here."
+msgstr "使用者可以選擇要不要顯示你選擇的疊圖"
