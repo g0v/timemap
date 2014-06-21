@@ -1,0 +1,15 @@
+{
+    "framework": "mocha+chai",
+    "before_tests":"npm run prepublish & lsc -c test/*.ls",
+    "after_tests": "rm test/*.js",
+    "src_files":[
+      "src/*.ls",
+      "test/*.ls"
+    ],
+    "serve_files":[
+      "http://code.jquery.com/jquery-1.10.2.js",
+      "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js",
+      "lib/*.js",
+      "test/*.js"
+    ]
+}

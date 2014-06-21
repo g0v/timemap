@@ -23,5 +23,6 @@ scripts:
   """
 engines: {node: '*'}
 devDependencies:
+  testem: \0.6.x
   mocha: \1.14.x
   LiveScript: \1.2.x
