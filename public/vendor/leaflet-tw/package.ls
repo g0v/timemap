@@ -22,6 +22,9 @@ scripts:
     if [ ! -e ./lib ]; then npm i LiveScript; lsc -bc -o lib src; fi
   """
 engines: {node: '*'}
+dependencies:
+  cheerio: \0.17.x
+  request: \1.x.x
 devDependencies:
   testem: \0.6.x
   mocha: \1.14.x

@@ -65,6 +65,31 @@ L.RCHSS.Chiayi_12K_1926 = L.RCHSS.TileLayer.extend({
   }
 });
 layers = {
+  'AM50K_1944': {
+    name: '1944-美軍地形圖-1:50,000'
+  },
+  'AMCityPlan_1945': {
+    name: '1945-美軍繪製臺灣城市地圖'
+  },
+  'JM20K_1904': {
+    name: '日治臺灣堡圖(明治版)-1:20,000(1904)',
+    ext: 'jpg'
+  },
+  'JM25K_1921': {
+    name: '1921-日治地形圖-1:25,000',
+    ext: 'jpg'
+  },
+  'TM25K_1989': {
+    name: '1989-臺灣經建1版地形圖-1:25,000',
+    ext: 'jpg'
+  },
+  'TM25K_2001': {
+    name: '2001-臺灣經建1版地形圖-1:25,000',
+    ext: 'jpg'
+  },
+  'TainanDTM': {
+    name: '台南數值高程圖'
+  },
   'Tainan_1875': {
     name: '臺灣府城街道圖(1875)'
   },
@@ -80,12 +105,11 @@ layers = {
   'Tainan_1896': {
     name: '臺南城圖(1896)'
   },
-  'Tainan_1900': {
-    name: '臺南城圖(1900)'
+  'Tainan_1896B': {
+    name: '臺南府迅速測圖(1896)'
   },
-  'JM20K_1904': {
-    name: '日治臺灣堡圖(明治版)-1:20,000(1904)',
-    ext: 'jpg'
+  'Tainan_1900': {
+    name: '臺南府城內外略圖(1900)'
   },
   'Tainan_1907B': {
     name: '市區改正臺南市街全圖(1907)'
@@ -105,6 +129,9 @@ layers = {
   'Tainan_1924': {
     name: '臺南市全圖(1924)'
   },
+  'Tainan_1924B': {
+    name: '臺南市全圖(1924B)'
+  },
   'Tainan_1935': {
     name: '臺南市街圖(1935)'
   },
@@ -117,9 +144,6 @@ layers = {
   },
   'Tainan_1945': {
     name: '臺南市新舊街路名圖(1945)'
-  },
-  'AMCityPlan_1945': {
-    name: '美軍繪製臺灣城市地圖(1945)'
   },
   'Tainan_1946': {
     name: '臺南市全圖(1946)'
@@ -144,6 +168,62 @@ layers = {
   },
   'Tainan_1986': {
     name: '臺南市都市計畫圖(藍曬)(1986)'
+  },
+  'Tainan_1996': {
+    name: '臺南市行政區域圖(1996)'
+  },
+  'Tainan_30K_1982': {
+    name: '臺南市圖'
+  },
+  'Tainan_40K_1976': {
+    name: '嘉南農田水利會灌溉地給水區分圖'
+  },
+  'Tainan_Taijing_2007': {
+    name: '臺江國家公園航照影像(2007)',
+    ext: 'jpg'
+  },
+  'Tainan_Taijing_2010': {
+    name: '臺江國家公園衛星影像(2010)',
+    ext: 'jpg'
+  },
+  'Tainan_aerialphoto_1947': {
+    name: '臺南市舊航照影像(1947)'
+  },
+  'Tainan_aerialphoto_1948': {
+    name: '臺南市舊航照影像(1948)'
+  },
+  'Tainan_aerialphoto_1951': {
+    name: '臺南市舊航照影像(1951)'
+  },
+  'Tainan_aerialphoto_1974': {
+    name: '臺南市舊航照影像(1974)'
+  },
+  'Tainan_aerialphoto_1975': {
+    name: '臺南市舊航照影像(1975)',
+    ext: 'jpg'
+  },
+  'Tainan_aerialphoto_2000': {
+    name: '臺南市舊航照影像(2000)',
+    ext: 'jpg'
+  },
+  'Tainan_aerialphoto_2011': {
+    name: '臺南市舊航照影像(2011)',
+    ext: 'jpg'
+  },
+  'chianan_100K_1933': {
+    name: '嘉南大圳平圖(1933)'
+  },
+  'chianan_100K_1978': {
+    name: '嘉南農田水利會灌溉區域平面圖'
+  },
+  'chianan_100K_1995': {
+    name: '嘉南農田水利會灌溉區域平面圖(1995)'
+  },
+  'chianan_200K_1959': {
+    name: '嘉南大圳水利委員會灌溉區域圖'
+  },
+  'chianan_IR1': {
+    name: '嘉南農田水利會灌溉區域圖'
   }
 };
 for (id in layers) {
