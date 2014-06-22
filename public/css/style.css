@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  font-size: 14px;
-  font-family: Merriweather, serif;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Heiti TC", "Apple LiGothic Medium", "Microsoft JhengHei", sans-serif
   font-weight: 300;
 }
 
@@ -147,6 +147,10 @@ i.gdrive {
 
 .home .hero-unit {
   margin-top: 45px;
+  background: url(../img/hero.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  color: #000;
 }
 
 .home .examples img {
@@ -241,13 +245,13 @@ body.view .navbar ul.nav.pull-right {
 .data-views .timeline-pane {
   margin: 0;
   padding: 0;
-  width: 55%;
+  width: 45%;
   float: left;
 }
 .data-views .map-pane {
   margin: 0;
   padding: 0;
-  width: 45%;
+  width: 55%;
   float: left;
 }
 
