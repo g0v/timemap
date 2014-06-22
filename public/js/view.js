@@ -253,8 +253,8 @@ var TimeMapperView = Backbone.View.extend({
     this.timeline.render();
   },
 
-  initMap: function(datapackage){
-    return function(){
+  initMap: function(){
+      var datapackage = this.model.datapackage;
       var overlayers = {};
       var mapUrl = "//otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png";
       var osmAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="//developer.mapquest.com/content/osm/mq_logo.png">';
@@ -263,6 +263,8 @@ var TimeMapperView = Backbone.View.extend({
 
       for(var i=0;i<datapackage.tmconfig.maplayer_available.length;i++){
         var mapid = datapackage.tmconfig.maplayer_available[i];
+        if(!L.RCHSS[mapid])
+           console.log(mapid);
         var layer = new L.RCHSS[mapid]({opacity:0.35});
         if(mapid == datapackage.tmconfig.maplayer){
           this.map.addLayer(layer);
@@ -270,14 +272,14 @@ var TimeMapperView = Backbone.View.extend({
         overlayers[layer.name] = layer;
       }
       this.map.addControl(new L.Control.Layers({'OSM': bg}, overlayers));
-    }
   },
 
   _setupMap: function() {
+    this.model.datapackage = this.datapackage
     this.map = new recline.View.Map({
       model: this.model
     });
-    this.map.initMap = this.initMap(this.datapackage);
+    this.map.initMap = this.initMap;
     this.$el.find('.map').append(this.map.el);
 
     // customize with icon column
