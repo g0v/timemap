@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-21 15:11+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-26 09:20+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "It's free and easy to use": [
          null,
@@ -45,7 +45,7 @@
       ],
       "Publish your TimeMap at your own personal url, then share or embed on your site.": [
          null,
-         "用你的專屬網址公佈你的TimeMap，然後分享或嵌入在你的網站上。"
+         "用你的專屬網址公佈你的時間地圖，然後分享或嵌入在你的網站上。"
       ],
       "Credits": [
          null,
@@ -117,7 +117,7 @@
       ],
       "Yes! You do not need an account to create a timemap - they can be created anonymously and will have all the same features and shareability of normal timemaps. However, there are some benefits of creating an account and creating your timemap whilst logged in:": [
          null,
-         "是的！建立timemap不需要帳號 - 它們可以被匿名建立並且跟一般的timemap擁有一樣的功能也能分享。 無論如何，建立一個帳號以及在登入狀態下建立timemap還是有些好處。"
+         "是的！建立時間地圖 - 它們可以被匿名建立並且跟一般的時間地圖功能也能分享。 無論如何，建立一個帳號以及在登入狀態下建立時間地圖還是有些好處。"
       ],
       "You'll get a nice URL for your timemap at <code>/your-username/a-name-you-choose-for-your-timemap</code>": [
          null,
@@ -309,7 +309,7 @@
       ],
       "The url of your new timemap. This must be different from the name for any of your existing timemaps. Choose wisely as this is hard to change!": [
          null,
-         "你的新timemap網址。 這必須跟你現有的timemap不同。 謹慎思考名字，因為這很難修改！"
+         "你的新時間地圖網址。 這必須跟你現有的時間地圖不同。 謹慎思考名字，因為這很難修改！"
       ],
       "Type of Data View": [
          null,
@@ -317,7 +317,7 @@
       ],
       "Choose the visualization type of your data - TimeMap (Timeline and Map combined), Timeline or Map.": [
          null,
-         "選擇你資料的視覺化模式 - TimeMap (時間軸與地圖整合)，時間軸或地圖"
+         "選擇你資料的視覺化模式 - 時間地圖 (時間軸與地圖整合)，時間軸或地圖"
       ],
       "More Options": [
          null,

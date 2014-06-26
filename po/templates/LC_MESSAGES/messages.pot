@@ -7,30 +7,35 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2014-06-21 15:11+0000\n"
+"POT-Creation-Date: 2014-06-26 09:20+0000\n"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:14
 #: /private/tmp/timemapper/views/index.html:14
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:14
 msgid "It's free and easy to use"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:15
 #: /private/tmp/timemapper/views/index.html:15
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:15
 msgid "Get started now"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:21
 #: /private/tmp/timemapper/views/index.html:21
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:21
 msgid "Watch the 1 minute Tutorial"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:27
 #: /private/tmp/timemapper/views/index.html:27
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:27
 msgid "Examples"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:50
 #: /private/tmp/timemapper/views/index.html:50
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:50
 msgid "How It Works"
 msgstr ""
 
@@ -38,6 +43,8 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:17
 #: /private/tmp/timemapper/views/dataview/create.html:18
 #: /private/tmp/timemapper/views/index.html:54
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:18
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:54
 msgid "1. Create a Spreadsheet"
 msgstr ""
 
@@ -45,6 +52,8 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:18
 #: /private/tmp/timemapper/views/dataview/create.html:19
 #: /private/tmp/timemapper/views/index.html:55
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:19
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:55
 msgid "Add your dates and places to a Google Spreadsheet."
 msgstr ""
 
@@ -54,6 +63,9 @@ msgstr ""
 #: /private/tmp/timemapper/views/dataview/create.html:24
 #: /private/tmp/timemapper/views/dataview/create.html:69
 #: /private/tmp/timemapper/views/index.html:60
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:24
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:69
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:60
 msgid "2. Connect and Customize"
 msgstr ""
 
@@ -61,6 +73,8 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:24
 #: /private/tmp/timemapper/views/dataview/create.html:25
 #: /private/tmp/timemapper/views/index.html:61
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:25
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:61
 msgid "Connect your spreadsheet with TimeMapper and customize the results."
 msgstr ""
 
@@ -68,6 +82,8 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:29
 #: /private/tmp/timemapper/views/dataview/create.html:30
 #: /private/tmp/timemapper/views/index.html:66
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:30
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:66
 msgid "3. Publish, Embed and Share"
 msgstr ""
 
@@ -75,6 +91,8 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:30
 #: /private/tmp/timemapper/views/dataview/create.html:31
 #: /private/tmp/timemapper/views/index.html:67
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:31
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:67
 msgid ""
 "Publish your TimeMap at your own personal url, then share or embed on your "
 "site."
@@ -82,11 +100,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:72
 #: /private/tmp/timemapper/views/index.html:72
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:72
 msgid "Credits"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
 #: /private/tmp/timemapper/views/index.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
 msgid ""
 "TimeMapper is an open-source project of <a "
 "href=\"http://okfnlabs.org/\">Open Knowledge Foundation Labs</a>."
@@ -94,6 +114,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
 #: /private/tmp/timemapper/views/index.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
 msgid ""
 "It is possible thanks to a set of awesome open-source components including "
 "<a href=\"http://timeline.verite.co/\">TimelineJS</a>, <a "
@@ -107,26 +128,31 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:8
 #: /private/tmp/timemapper/views/dataview/create.html:9
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:9
 msgid "Create your"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:40
 #: /private/tmp/timemapper/views/dataview/create.html:41
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:41
 msgid "Let's Get Started"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:44
 #: /private/tmp/timemapper/views/dataview/create.html:45
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:45
 msgid "1. Create your Spreadsheet"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:46
 #: /private/tmp/timemapper/views/dataview/create.html:47
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:47
 msgid "if you don't have one already!"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:51
 #: /private/tmp/timemapper/views/dataview/create.html:52
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:52
 msgid ""
 "Get started by copying <strong><a "
 "href=\"https://docs.google.com/a/okfn.org/spreadsheet/ccc?key=0AqR8dXc6Ji4"
@@ -136,16 +162,19 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:54
 #: /private/tmp/timemapper/views/dataview/create.html:55
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:55
 msgid "Impatient to try this out but don't have a spreadsheet yet?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:57
 #: /private/tmp/timemapper/views/dataview/create.html:58
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:58
 msgid "Click here to use a pre-prepared example"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:72
 #: /private/tmp/timemapper/views/dataview/create.html:73
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:73
 msgid ""
 "ALERT: you are <strong>not signed in</strong> so your timemap will be "
 "created <strong>'anonymously'</strong>."
@@ -153,6 +182,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:88
 #: /private/tmp/timemapper/views/dataview/create.html:89
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:89
 msgid "3. Let's Publish It!"
 msgstr ""
 
@@ -160,21 +190,26 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:116
 #: /private/tmp/timemapper/views/dataview/create.html:93
 #: /private/tmp/timemapper/views/dataview/create.html:117
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:93
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:117
 msgid "Publish"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:105
 #: /private/tmp/timemapper/views/dataview/create.html:106
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:106
 msgid "FAQ"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:106
 #: /private/tmp/timemapper/views/dataview/create.html:107
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:107
 msgid "Can I make a timemap anonymously?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:75
 #: /private/tmp/timemapper/views/dataview/create.html:76
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:76
 msgid ""
 "If want to 'own' your timemap you should <a href=\"/account/login\">sign in "
 "(or sign-up) now &raquo;</a>"
@@ -182,6 +217,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:77
 #: /private/tmp/timemapper/views/dataview/create.html:78
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:78
 msgid ""
 "(Sign-up takes a few seconds with your  <a href=\"/account/login\">twitter "
 "account &raquo;</a>)"
@@ -189,6 +225,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:107
 #: /private/tmp/timemapper/views/dataview/create.html:108
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:108
 msgid ""
 "Yes! You do not need an account to create a timemap - they can be created "
 "anonymously and will have all the same features and shareability of normal "
@@ -198,6 +235,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:109
 #: /private/tmp/timemapper/views/dataview/create.html:110
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:110
 msgid ""
 "You'll get a nice URL for your timemap at "
 "<code>/your-username/a-name-you-choose-for-your-timemap</code>"
@@ -205,11 +243,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:110
 #: /private/tmp/timemapper/views/dataview/create.html:111
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:111
 msgid "All of your timemaps will be nicely listed at <code>/your-username</code>"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:111
 #: /private/tmp/timemapper/views/dataview/create.html:112
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:112
 msgid ""
 "As you'll be identified as the owner you'll be able to re-configure (or "
 "delete) your timemap later"
@@ -217,21 +257,25 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
 #: /private/tmp/timemapper/views/dataview/create.html:115
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:115
 msgid "If you do want an account, signup is very easy"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
 #: /private/tmp/timemapper/views/dataview/create.html:115
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:115
 msgid "it takes just 15 seconds, is very secure, and uses your Twitter account"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:114
 #: /private/tmp/timemapper/views/dataview/create.html:115
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:115
 msgid "(no need to think up a new username and password!)."
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:117
 #: /private/tmp/timemapper/views/dataview/create.html:118
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:118
 msgid ""
 "Go to File Menu in your spreadsheet, then 'Publish to the Web', then click "
 "'Start Publishing'. This tutorial walks you through."
@@ -239,11 +283,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:121
 #: /private/tmp/timemapper/views/dataview/create.html:122
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:122
 msgid "What URL do I use to connect my spreadsheet?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:122
 #: /private/tmp/timemapper/views/dataview/create.html:123
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:123
 msgid ""
 "Use the URL you get by clicking your spreadsheet's <strong>Share</strong> "
 "button and copying the <strong>Link to share</strong> box."
@@ -251,6 +297,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:124
 #: /private/tmp/timemapper/views/dataview/create.html:125
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:125
 msgid ""
 "Note that although you must also <strong>Publish to the web</strong>, "
 "TimeMapper does not use the URL found in the publication pop-up."
@@ -258,11 +305,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:126
 #: /private/tmp/timemapper/views/dataview/create.html:127
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:127
 msgid "What structure must the spreadsheet have?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:127
 #: /private/tmp/timemapper/views/dataview/create.html:128
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:128
 msgid ""
 "TimeMapper recognizes certain columns with specific names. The best "
 "overview of these columns is <a "
@@ -273,6 +322,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:129
 #: /private/tmp/timemapper/views/dataview/create.html:130
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:130
 msgid ""
 "Not all fields are required. The only required fields are <b>Title</b> and "
 "<b>Start</b> fields, and even <b>Start</b> can be omitted if you just want "
@@ -282,11 +332,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:131
 #: /private/tmp/timemapper/views/dataview/create.html:132
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:132
 msgid "How do I format dates?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:132
 #: /private/tmp/timemapper/views/dataview/create.html:133
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:133
 msgid ""
 "The preferred date format is ISO 8601 (YYYY-MM-DD), but TimeMapper "
 "recognizes most types of date."
@@ -294,6 +346,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:134
 #: /private/tmp/timemapper/views/dataview/create.html:135
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:135
 msgid ""
 "If a date's month and day are ambiguous (e.g. is 08-03-1798 UK notation for "
 "8 March, or is it US notation for 3 August?), by default, the first number "
@@ -304,11 +357,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:136
 #: /private/tmp/timemapper/views/dataview/create.html:137
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:137
 msgid "What kinds of geodata are supported?"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:137
 #: /private/tmp/timemapper/views/dataview/create.html:138
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:138
 msgid ""
 "The <b>Location</b> column accepts two types of geodata: latitude-longitude "
 "coordinates or GeoJSON objects."
@@ -316,6 +371,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:139
 #: /private/tmp/timemapper/views/dataview/create.html:140
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:140
 msgid ""
 "Coordinates must be in the format <emph>lat, long</emph> (e.g. <emph>37.5, "
 "-122</emph>). The <a "
@@ -330,6 +386,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:141
 #: /private/tmp/timemapper/views/dataview/create.html:142
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:142
 msgid ""
 "Advanced users who want to go beyond simple coordinates can use GeoJSON "
 "feature objects. For an example, see this blog post on adding <a "
@@ -339,36 +396,43 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:13
 #: /private/tmp/timemapper/views/dataview/create.html:14
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:14
 msgid "It's as easy as 1-2-3!"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:5
 #: /private/tmp/timemapper/views/dataview/edit.html:5
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/edit.html:5
 msgid "Edit - "
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:10
 #: /private/tmp/timemapper/views/dataview/edit.html:10
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/edit.html:10
 msgid "Edit your "
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:3
 #: /private/tmp/timemapper/views/dashboard.html:3
+#: /Users/hychen/projects/kuansim/timemapper/views/dashboard.html:3
 msgid "Dashboard"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:8
 #: /private/tmp/timemapper/views/dashboard.html:8
+#: /Users/hychen/projects/kuansim/timemapper/views/dashboard.html:8
 msgid "Hi there"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:13
 #: /private/tmp/timemapper/views/dashboard.html:13
+#: /Users/hychen/projects/kuansim/timemapper/views/dashboard.html:13
 msgid "Create a new Timeline or TimeMap"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dashboard.html:17
 #: /private/tmp/timemapper/views/dashboard.html:17
+#: /Users/hychen/projects/kuansim/timemapper/views/dashboard.html:17
 msgid "Your Existing TimeMaps"
 msgstr ""
 
@@ -378,41 +442,49 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:3
 #: /private/tmp/timemapper/views/dataview/timemap.html:3
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:3
 msgid "embed"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:42
 #: /private/tmp/timemapper/views/dataview/timemap.html:42
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:42
 msgid "Embed"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:47
 #: /private/tmp/timemapper/views/dataview/timemap.html:47
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:47
 msgid "Edit"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:67
 #: /private/tmp/timemapper/views/dataview/timemap.html:67
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:67
 msgid "Search data ..."
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:87
 #: /private/tmp/timemapper/views/dataview/timemap.html:87
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:87
 msgid "Embed Instructions"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:90
 #: /private/tmp/timemapper/views/dataview/timemap.html:90
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:90
 msgid "Copy and paste the following into your web page"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:96
 #: /private/tmp/timemapper/views/dataview/timemap.html:96
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:96
 msgid "Loading data..."
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:100
 #: /private/tmp/timemapper/views/dataview/timemap.html:100
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:100
 msgid "using"
 msgstr ""
 
@@ -420,36 +492,44 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/base.html:85
 #: /private/tmp/timemapper/views/base.html:85
 #: /private/tmp/timemapper/views/dataview/timemap.html:103
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:85
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:103
 msgid "License"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/timemap.html:106
 #: /private/tmp/timemapper/views/dataview/timemap.html:106
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/timemap.html:106
 msgid "Source Data"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:3
 #: /private/tmp/timemapper/views/dataview/form.html:3
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:3
 msgid "Data Source"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:6
 #: /private/tmp/timemapper/views/dataview/form.html:6
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:6
 msgid "Select from Your Google Drive"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:7
 #: /private/tmp/timemapper/views/dataview/form.html:7
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:7
 msgid "If nothing happens check you are not blocking popups ..."
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
 #: /private/tmp/timemapper/views/dataview/form.html:16
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:16
 msgid "Important"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
 #: /private/tmp/timemapper/views/dataview/form.html:16
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:16
 msgid ""
 "you must \"publish\" your Google Spreadsheet: go to File Menu in your "
 "spreadsheet, then 'Publish to the Web', then click 'Start Publishing'. See"
@@ -457,26 +537,31 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
 #: /private/tmp/timemapper/views/dataview/form.html:16
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:16
 msgid "the FAQ below"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:16
 #: /private/tmp/timemapper/views/dataview/form.html:16
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:16
 msgid "for more details"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:22
 #: /private/tmp/timemapper/views/dataview/form.html:22
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:22
 msgid "Title"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:35
 #: /private/tmp/timemapper/views/dataview/form.html:35
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:35
 msgid "Slug"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:46
 #: /private/tmp/timemapper/views/dataview/form.html:46
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:46
 msgid ""
 "The url of your new timemap. This must be different from the name for any "
 "of your existing timemaps. Choose wisely as this is hard to change!"
@@ -484,11 +569,13 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:53
 #: /private/tmp/timemapper/views/dataview/form.html:53
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:53
 msgid "Type of Data View"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:70
 #: /private/tmp/timemapper/views/dataview/form.html:70
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:70
 msgid ""
 "Choose the visualization type of your data - TimeMap (Timeline and Map "
 "combined), Timeline or Map."
@@ -496,26 +583,31 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:75
 #: /private/tmp/timemapper/views/dataview/form.html:119
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:119
 msgid "More Options"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:78
 #: /private/tmp/timemapper/views/dataview/form.html:122
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:122
 msgid "Ambiguous Date Handling"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:90
 #: /private/tmp/timemapper/views/dataview/form.html:134
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:134
 msgid "month first (US style)"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:101
 #: /private/tmp/timemapper/views/dataview/form.html:145
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:145
 msgid "day first (non-US style)"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:104
 #: /private/tmp/timemapper/views/dataview/form.html:148
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:148
 msgid ""
 "How to handle ambiguous dates like \"05/08/2012\" in source data (could be "
 "read as 5th August or 8th of May)."
@@ -523,31 +615,37 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:106
 #: /private/tmp/timemapper/views/dataview/form.html:150
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:150
 msgid "If you do not have any dates formatted like this then you can ignore this!"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:112
 #: /private/tmp/timemapper/views/dataview/form.html:156
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:156
 msgid "Start from"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:129
 #: /private/tmp/timemapper/views/dataview/form.html:173
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:173
 msgid "Where on the timeline should the user start."
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:7
 #: /private/tmp/timemapper/views/base.html:7
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:7
 msgid "TimeMapper - Make Timelines and TimeMaps fast!"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:8
 #: /private/tmp/timemapper/views/base.html:8
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:8
 msgid "from the Open Knowledge Foundation Labs"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:10
 #: /private/tmp/timemapper/views/base.html:10
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:10
 msgid ""
 "TimeMapper - Make Timelines and TimeMaps fast! - from the Open Knowledge "
 "Foundation Labs"
@@ -555,6 +653,7 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:37
 #: /private/tmp/timemapper/views/base.html:37
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:37
 msgid "An Open Knowledge Foundation Labs Project"
 msgstr ""
 
@@ -562,16 +661,20 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/base.html:80
 #: /private/tmp/timemapper/views/base.html:52
 #: /private/tmp/timemapper/views/base.html:80
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:52
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:80
 msgid "Contact Us"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:56
 #: /private/tmp/timemapper/views/base.html:56
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:56
 msgid "Report an Issue"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:80
 #: /private/tmp/timemapper/views/base.html:80
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:80
 msgid ""
 "The <a "
 "href=\"http://timemapper.okfnlabs.org/\"><strong>TimeMapper</strong></a> is "
@@ -581,36 +684,43 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:81
 #: /private/tmp/timemapper/views/base.html:81
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:81
 msgid "TimeMapper is open-source"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:83
 #: /private/tmp/timemapper/views/base.html:83
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:83
 msgid "Source Code"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:85
 #: /private/tmp/timemapper/views/base.html:85
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:85
 msgid "Copyright"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:80
 #: /private/tmp/timemapper/views/dataview/create.html:81
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:81
 msgid "Find out more on anonymous vs logged in"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:80
 #: /private/tmp/timemapper/views/dataview/create.html:81
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:81
 msgid "read FAQ below"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:30
 #: /private/tmp/timemapper/views/dataview/form.html:30
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:30
 msgid "Title for your View"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:43
 #: /private/tmp/timemapper/views/dataview/form.html:43
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:43
 msgid ""
 "The slug needs to be 'url-usable' and so must be lowercase containing only "
 "alphanumeric characters and '-'"
@@ -618,41 +728,50 @@ msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:9
 #: /private/tmp/timemapper/views/index.html:9
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:9
 msgid "Elegant timelines and maps created in seconds"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:3
 #: /private/tmp/timemapper/views/dataview/create.html:4
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:4
 msgid "create"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/create.html:116
 #: /private/tmp/timemapper/views/dataview/create.html:117
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:117
 msgid "Your Spreadsheet"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/edit.html:16
 #: /private/tmp/timemapper/views/dataview/edit.html:16
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/edit.html:16
 msgid "Update"
 msgstr ""
 
 #: /Users/hychen/github/hychen/timemapper/views/dataview/form.html:15
 #: /private/tmp/timemapper/views/dataview/form.html:15
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:15
 msgid "Or paste the Google Spreadsheet URL directly"
 msgstr ""
 
 #: /private/tmp/timemapper/views/dataview/form.html:76
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:76
 msgid "Default Map Layer"
 msgstr ""
 
 #: /private/tmp/timemapper/views/dataview/form.html:92
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:92
 msgid "Choose map layer, map layer will be background of your location."
 msgstr ""
 
 #: /private/tmp/timemapper/views/dataview/form.html:98
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:98
 msgid "Available Map Layer"
 msgstr ""
 
 #: /private/tmp/timemapper/views/dataview/form.html:114
+#: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:114
 msgid "Visitor can select different map layer you picked here."
 msgstr ""
