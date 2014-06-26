@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+{% block extrahead %}<link rel="stylesheet" href="/vendor/chosen/chosen.min.css">{% endblock %}
 {% block bodyclass %}{{ gettext('create') }}{% endblock %}
 
 {% block content %}
@@ -151,4 +152,5 @@
 
   <!-- non-library javascript specific to this demo -->
   <script type="text/javascript" src="js/create.js"></script>
+  <script type="text/javascript" src="/vendor/chosen/chosen.jquery.min.js"></script>
 {% endblock %}

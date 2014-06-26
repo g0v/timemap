@@ -1,0 +1,12 @@
+{
+    "framework": "mocha+chai",
+    "before_tests":"npm run prepublish & lsc -c test/*.ls & browserify -t brfs test/test.js > test/browserified.js",
+    "on_exit": "rm test/*.js",
+    "src_files":[
+      "src/*.ls",
+      "test/*.ls"
+    ],
+    "serve_files":[
+      "test/browserified.js"
+    ]
+}

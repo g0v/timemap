@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  font-size: 14px;
-  font-family: Merriweather, serif;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Heiti TC", "Apple LiGothic Medium", "Microsoft JhengHei", sans-serif
   font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6, .brand {
-  font-family: "News Cycle", Arial, sans-serif;
+  font-family: "News Cycle", Helvetica, Arial, "Heiti TC", "Apple LiGothic Medium", "Microsoft JhengHei", sans-serif
   font-weight: 700;
 }
 
@@ -147,6 +147,15 @@ i.gdrive {
 
 .home .hero-unit {
   margin-top: 45px;
+  background: url(../img/hero.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  color: #000;
+  text-shadow: rgba(138, 138, 138, 0.8) 3px 3px 5px, rgba(62, 90, 109, 0.6) 1px 1px 0;
+}
+.hero-unit h1 small {
+  color: #000;
+  text-
 }
 
 .home .examples img {
@@ -241,13 +250,13 @@ body.view .navbar ul.nav.pull-right {
 .data-views .timeline-pane {
   margin: 0;
   padding: 0;
-  width: 66.66%;
+  width: 45%;
   float: left;
 }
 .data-views .map-pane {
   margin: 0;
   padding: 0;
-  width: 33.33%;
+  width: 55%;
   float: left;
 }
 

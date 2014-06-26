@@ -71,6 +71,50 @@
         </span>
       </div>
     </div>
+    <div class="control-group maplayer-default">
+      <label class="control-label">
+        {{ gettext('Default Map Layer') }}
+      </label>
+      <div class="controls">
+        <select name="tmconfig[maplayer]" class="chosen">
+          {% for val,obj in dataview.titles %}
+          <option 
+          value="{{val}}"
+          {% if dataview.tmconfig.maplayer == val %}
+            selected="selected"
+          {% endif %}
+          >
+          {{obj.name}}
+          </option>
+          {% endfor %}
+        </select>
+        <span class="help-block">
+          {{ gettext('Choose map layer, map layer will be background of your location.') }}
+        </span>
+      </div>
+    </div>
+    <div class="control-group maplayer-available">
+      <label class="control-label">
+        {{ gettext('Available Map Layer') }}
+      </label>
+      <div class="controls">
+        <select name="tmconfig[maplayer_available]" class="" multiple>
+          {% for val,obj in dataview.titles %}
+          <option 
+          value="{{val}}"
+          {% if dataview.tmconfig.maplayer_available == val %}
+            selected="selected"
+          {% endif %}
+          >
+          {{obj.name}}
+          </option>
+          {% endfor %}
+        </select>
+        <span class="help-block">
+          {{ gettext('Visitor can select different map layer you picked here.') }}
+        </span>
+      </div>
+    </div>
 
     <h4 style="text-align: center;">{{ gettext('More Options') }}</h4>
     <div class="control-group">

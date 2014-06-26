@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-05-31 17:46+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-21 15:11+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "It's free and easy to use": [
          null,
@@ -426,6 +426,22 @@
       "Or paste the Google Spreadsheet URL directly": [
          null,
          "或者直接貼上Google試算表的網址"
+      ],
+      "Default Map Layer": [
+         null,
+         "預設顯示的圖層"
+      ],
+      "Choose map layer, map layer will be background of your location.": [
+         null,
+         "選擇欲疊加的圖層，圖層將會成為你當前位置的背景"
+      ],
+      "Available Map Layer": [
+         null,
+         "可用的圖層"
+      ],
+      "Visitor can select different map layer you picked here.": [
+         null,
+         "使用者可以選擇要不要顯示你選擇的疊圖"
       ]
    }
 }

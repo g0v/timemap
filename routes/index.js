@@ -1,4 +1,5 @@
 var _ = require('underscore')
+  , wmts = require('leaflet-tw').wmts()
   , config = require('../lib/config.js')
   , dao = require('../lib/dao.js')
   , logic = require('../lib/logic')
@@ -13,10 +14,17 @@ exports.create = function(req, res) {
       viewtype: 'timemap'
     }
   };
-  res.render('dataview/create.html', {
-    title: 'Create',
-    dataview: dataview
-  });
+  wmts.avaliableTitles(
+    'http://gis.sinica.edu.tw/tainan//1.0.0/WMTSCapabilities.xml',
+    function(err, result){
+      if(!err)
+        dataview.titles = result.titles;
+      res.render('dataview/create.html', {
+        title: 'Create',
+        dataview: dataview
+      });
+    }
+  );
 }
 
 exports.createPost = function(req, res) {
@@ -97,7 +105,7 @@ exports.userShow = function(req, res) {
     accountJson.createdNice = new Date(accountJson._created).toDateString();
     res.render('account/view.html', {
         account: accountJson
-      , views: account.views 
+      , views: account.views
       , isOwner: isOwner
       , bodyclass: 'account'
     });
@@ -206,4 +214,3 @@ exports.dataViewEditPost = function(req, res) {
     });
   });
 }
-
