@@ -53,6 +53,9 @@
         <li class="divider-vertical"></li>
         <li><a class="username" href="/{{currentUser.id}}"><i class="icon-user"></i> {{currentUser.id}}</a></li>
         <li><a class="logout" href="/account/logout" title="sign out"><i class="icon-signout"></i></a></li>
+        {% else %}
+        <li class="divider-vertical"></li>
+        <li><a class="login" href="/account/login" title="login">使用Twitter登入</a></li>
         {% endif %}
       </ul>
     </div>
