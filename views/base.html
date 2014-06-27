@@ -30,19 +30,13 @@
 </head>
 <body class="{% block bodyclass %}{{bodyclass}}{% endblock %}">
 {% block navbar %}
-<div id="okf-panel" class="collapse">
-  <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html"></iframe>
-</div>
 <div class="okfn-ribbon">
-  <a data-toggle="collapse" data-target="#okf-panel" href="http://okfnlabs.org/" target="_blank">{{ gettext('An Open Knowledge Foundation Labs Project') }}</a>
 </div>
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container">
       <div class="brand">
-        <a href="/" class="black">Time<span class="brand-ext">Mapper</span></a>
-        from
-        <a class="by" href="http://okfnlabs.org/">Open Knowledge Foundation Labs</a>
+        <a href="/" class="black">時間<span class="brand-ext">地圖</span></a> (Alpha)
       </div>
       <ul class="nav">
       </ul>
@@ -84,8 +78,6 @@
 
 <script type="text/javascript" src="/vendor/recline/vendor/jquery/1.7.1/jquery.js"></script>
 <script type="text/javascript" src="/vendor/recline/vendor/underscore/1.4.4/underscore.js"></script>
-<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
-<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
 
 <script type="text/javascript">
   // define global TM object and set some config

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-26 09:20+0000\n"
+"POT-Creation-Date: 2014-06-27 16:26+0000\n"
 "PO-Revision-Date: 2014-05-30 21:10+0800\n"
 "Last-Translator: 陳信屹 <ossug.hychen@gmail.com>\n"
 "Language-Team: Chinese (traditional)\n"
@@ -31,12 +31,14 @@ msgstr "觀看一分鐘教學影片"
 #: /Users/hychen/github/hychen/timemapper/views/index.html:27
 #: /private/tmp/timemapper/views/index.html:27
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:27
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:51
 msgid "Examples"
 msgstr "範例"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:50
 #: /private/tmp/timemapper/views/index.html:50
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:50
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:20
 msgid "How It Works"
 msgstr "如何使用"
 
@@ -46,6 +48,7 @@ msgstr "如何使用"
 #: /private/tmp/timemapper/views/index.html:54
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:18
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:54
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:24
 msgid "1. Create a Spreadsheet"
 msgstr "1. 建立一份列表"
 
@@ -55,6 +58,7 @@ msgstr "1. 建立一份列表"
 #: /private/tmp/timemapper/views/index.html:55
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:19
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:55
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:25
 msgid "Add your dates and places to a Google Spreadsheet."
 msgstr "在Google試算表加上時間跟地址。"
 
@@ -67,6 +71,7 @@ msgstr "在Google試算表加上時間跟地址。"
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:24
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:69
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:60
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:31
 msgid "2. Connect and Customize"
 msgstr "2. 綁定跟客製化"
 
@@ -76,6 +81,7 @@ msgstr "2. 綁定跟客製化"
 #: /private/tmp/timemapper/views/index.html:61
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:25
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:61
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:32
 msgid "Connect your spreadsheet with TimeMapper and customize the results."
 msgstr "將TimeMapper跟你的Google試算表綁在一起並且客製化結果。"
 
@@ -94,6 +100,7 @@ msgstr "3. 公佈，嵌入，以及分享"
 #: /private/tmp/timemapper/views/index.html:67
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/create.html:31
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:67
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:38
 msgid ""
 "Publish your TimeMap at your own personal url, then share or embed on your "
 "site."
@@ -102,12 +109,14 @@ msgstr "用你的專屬網址公佈你的時間地圖，然後分享或嵌入在
 #: /Users/hychen/github/hychen/timemapper/views/index.html:72
 #: /private/tmp/timemapper/views/index.html:72
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:72
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
 msgid "Credits"
 msgstr "鳴謝"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
 #: /private/tmp/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:76
 msgid ""
 "TimeMapper is an open-source project of <a href=\"http://okfnlabs.org/"
 "\">Open Knowledge Foundation Labs</a>."
@@ -118,6 +127,7 @@ msgstr ""
 #: /Users/hychen/github/hychen/timemapper/views/index.html:74
 #: /private/tmp/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:76
 msgid ""
 "It is possible thanks to a set of awesome open-source components including "
 "<a href=\"http://timeline.verite.co/\">TimelineJS</a>, <a href=\"http://"
@@ -707,12 +717,15 @@ msgstr "一個 Open Knowledge Foundation Labs 專案"
 #: /private/tmp/timemapper/views/base.html:80
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:52
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:80
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:46
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:74
 msgid "Contact Us"
 msgstr "聯絡我們"
 
 #: /Users/hychen/github/hychen/timemapper/views/base.html:56
 #: /private/tmp/timemapper/views/base.html:56
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:56
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:50
 msgid "Report an Issue"
 msgstr "回報問題"
 
@@ -824,3 +837,16 @@ msgstr "可用的圖層"
 #: /Users/hychen/projects/kuansim/timemapper/views/dataview/form.html:114
 msgid "Visitor can select different map layer you picked here."
 msgstr "使用者可以選擇要不要顯示你選擇的疊圖"
+
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:37
+#, fuzzy
+msgid "3. Publish"
+msgstr "發佈"
+
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:43
+msgid "4. Browse"
+msgstr "4. 瀏覽"
+
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:44
+msgid "you cand read the map in the browser of your desktop or mobile phone."
+msgstr "你可以在電腦上或是手機上瀏覽。"

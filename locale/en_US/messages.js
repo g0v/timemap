@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-26 09:20+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: English\nLanguage: en_US\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-27 16:26+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: English\nLanguage: en_US\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
       },
       "It's free and easy to use": [
          null,
@@ -440,6 +440,18 @@
          ""
       ],
       "Visitor can select different map layer you picked here.": [
+         null,
+         ""
+      ],
+      "3. Publish": [
+         null,
+         ""
+      ],
+      "4. Browse": [
+         null,
+         ""
+      ],
+      "you cand read the map in the browser of your desktop or mobile phone.": [
          null,
          ""
       ]

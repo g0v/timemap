@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-26 09:20+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+         "Project-Id-Version": " PACKAGE VERSION\nPOT-Creation-Date: 2014-06-27 16:26+0000\nPO-Revision-Date: 2014-05-30 21:10+0800\nLast-Translator: 陳信屹 <ossug.hychen@gmail.com>\nLanguage-Team: Chinese (traditional)\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
       },
       "It's free and easy to use": [
          null,
@@ -442,6 +442,18 @@
       "Visitor can select different map layer you picked here.": [
          null,
          "使用者可以選擇要不要顯示你選擇的疊圖"
+      ],
+      "3. Publish": [
+         null,
+         "發佈"
+      ],
+      "4. Browse": [
+         null,
+         "4. 瀏覽"
+      ],
+      "you cand read the map in the browser of your desktop or mobile phone.": [
+         null,
+         "你可以在電腦上或是手機上瀏覽。"
       ]
    }
 }
