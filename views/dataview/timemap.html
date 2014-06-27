@@ -97,7 +97,7 @@
 {% endblock %}
 
 {% block footer %}
-  <a href="{{permalink}}">{{title}}</a> by <a href="{{authorLink}}">{{viz.owner}}</a> {{ gettext('using') }} <a href="http://timemapper.okfnlabs.org/">TimeMapper</a>
+  <a href="{{permalink}}">{{title}}</a> by <a href="{{authorLink}}">{{viz.owner}}</a> {{ gettext('using') }} <a href="http://timemap.kuansim.com/">時間地圖</a>
   {% if viz.licenses.length != 0 %}
   &ndash;
   <a href="{{viz.licenses[0].url}}" title="{{viz.licenses[0].name}}">{{ gettext('License') }}</a>
