@@ -1,8 +1,7 @@
-Create beautiful timelines and timemaps from Google Spreadsheets.
+Based by [Open Knowledge Foundation Labs](http://okfnlabs.org/)'s TimeMapper project.
 
-Built by members of [Open Knowledge Foundation Labs](http://okfnlabs.org/).
-
-See it in action at <http://timemapper.okfnlabs.org/>
+# Currently Supported Tiles.
+- 臺南市古地圖 - [中央研究院台江內海計畫 WMTS 服務](http://gis.sinica.edu.tw/tainan/)
 
 # Install
 
