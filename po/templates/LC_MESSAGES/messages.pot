@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2014-06-27 16:26+0000\n"
+"POT-Creation-Date: 2014-06-27 17:03+0000\n"
 
 #: /Users/hychen/github/hychen/timemapper/views/index.html:14
 #: /private/tmp/timemapper/views/index.html:14
@@ -109,6 +109,7 @@ msgstr ""
 #: /private/tmp/timemapper/views/index.html:72
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:72
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:75
 msgid "Credits"
 msgstr ""
 
@@ -116,6 +117,7 @@ msgstr ""
 #: /private/tmp/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:76
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:77
 msgid ""
 "TimeMapper is an open-source project of <a "
 "href=\"http://okfnlabs.org/\">Open Knowledge Foundation Labs</a>."
@@ -125,6 +127,7 @@ msgstr ""
 #: /private/tmp/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:74
 #: /Users/hychen/projects/kuansim/timemapper/views/index.html:76
+#: /Users/hychen/projects/kuansim/timemapper/views/index.html:77
 msgid ""
 "It is possible thanks to a set of awesome open-source components including "
 "<a href=\"http://timeline.verite.co/\">TimelineJS</a>, <a "
@@ -675,6 +678,8 @@ msgstr ""
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:80
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:46
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:74
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:42
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:77
 msgid "Contact Us"
 msgstr ""
 
@@ -682,6 +687,7 @@ msgstr ""
 #: /private/tmp/timemapper/views/base.html:56
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:56
 #: /Users/hychen/projects/kuansim/timemapper/views/base.html:50
+#: /Users/hychen/projects/kuansim/timemapper/views/base.html:46
 msgid "Report an Issue"
 msgstr ""
 
