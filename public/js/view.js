@@ -269,15 +269,17 @@ var TimeMapperView = Backbone.View.extend({
       var bg = new L.TileLayer(mapUrl, {maxZoom: 18, attribution: osmAttribution ,subdomains: '1234'});
       this.map.addLayer(bg);
 
-      for(var i=0;i<datapackage.tmconfig.maplayer_available.length;i++){
-        var mapid = datapackage.tmconfig.maplayer_available[i];
-        if(!L.RCHSS[mapid])
-           console.log(mapid);
-        var layer = new L.RCHSS[mapid]({opacity:0.75});
-        if(mapid == datapackage.tmconfig.maplayer){
-          this.map.addLayer(layer);
+      if(datapackage.tmconfig.maplayer != 'none'){
+        for(var i=0;i<datapackage.tmconfig.maplayer_available.length;i++){
+          var mapid = datapackage.tmconfig.maplayer_available[i];
+          if(!L.RCHSS[mapid])
+             console.log(mapid);
+          var layer = new L.RCHSS[mapid]({opacity:0.75});
+          if(mapid == datapackage.tmconfig.maplayer){
+            this.map.addLayer(layer);
+          }
+          overlayers[layer.name] = layer;
         }
-        overlayers[layer.name] = layer;
       }
       this.map.addControl(new L.Control.Layers({'OSM': bg}, overlayers));
   },
