@@ -77,6 +77,14 @@
       </label>
       <div class="controls">
         <select name="tmconfig[maplayer]" class="chosen">
+          <option 
+          value="none"
+          {% if dataview.tmconfig.maplayer == 'undefined' %}
+            selected="selected"
+          {% endif %}
+          >
+          無 
+          </option>
           {% for val,obj in dataview.titles %}
           <option 
           value="{{val}}"
