@@ -157,8 +157,8 @@ exports.timeMap = function(req, res, next) {
     var isOwner = (req.user && req.user.id == threadData.owner);
     res.render('dataview/timemap.html', {
         title: threadData.title
-      , permalink: 'http://timemapper.okfnlabs.org/' + threadData.owner + '/' + threadData.name
-      , authorLink: 'http://timemapper.okfnlabs.org/' + threadData.owner
+      , permalink: 'http://timemap.kuansim.com/' + threadData.owner + '/' + threadData.name
+      , authorLink: 'http://timemap.kuansim.com/' + threadData.owner
       , embed: (req.query.embed !== undefined)
       , viz: threadData
       , vizJSON: JSON.stringify(threadData)
