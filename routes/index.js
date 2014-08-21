@@ -177,9 +177,14 @@ exports.dataViewEdit = function(req, res) {
       return;
     }
     var dataview = viz.toTemplateJSON();
-    res.render('dataview/edit.html', {
-        dataview: dataview
-      , dataviewJson: JSON.stringify(viz.toJSON())
+    wmts.avaliableTitles(
+      'http://gis.sinica.edu.tw/tainan//1.0.0/WMTSCapabilities.xml', 
+      function(err, result){
+        dataview.titles = result.titles;
+        res.render('dataview/edit.html', {
+            dataview: dataview
+          , dataviewJson: JSON.stringify(viz.toJSON())
+      });
     });
   });
 }

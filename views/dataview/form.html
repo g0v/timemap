@@ -110,10 +110,11 @@
           {% for val,obj in dataview.titles %}
           <option 
           value="{{val}}"
-          {% if dataview.tmconfig.maplayer_available == val %}
+          {% if dataview.tmconfig.maplayer_available.indexOf(val) >= 0 %}
             selected="selected"
           {% endif %}
           >
+          {{val}}
           {{obj.name}}
           </option>
           {% endfor %}
