@@ -139,6 +139,15 @@ var routePrefixes = {
   , 'dashboard': ''
 };
 
+exports.listall = function(req, res){
+  dao.DataView.List(function(error, views){
+    if(error)
+      res.send(500);
+    else 
+      res.render('listall.html', {views:views});
+  });
+}
+
 exports.timeMap = function(req, res, next) {
   var userId = req.params.userId;
   // HACK: we only want to handle threads and not other stuff

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gettext('List') }}{% endblock %}
+{% block bodyclass %}dashboard{% endblock %}
+
+{% block content %}
+  <div class="page-header">
+    <h1>All Time Maps</h1>
+  </div>
+
+  <h2>{{ gettext('All TimeMaps') }}</h2>
+  <ul class="view-summary-list">
+  {% for view in views %}
+    <li>
+      <h3>
+        <a href="/{{view.owner}}/{{view.name}}">
+          {{view.title}} 
+        </a>
+        <small>({{view.name}} by <a href="/{{view.owner}}">{{view.owner}}</a> on {{view._last_modified}})</small>        
+      </h3>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+  
+{% endblock %}

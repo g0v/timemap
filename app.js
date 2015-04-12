@@ -121,6 +121,7 @@ app.get('/', function(req, res){
   }
 });
 
+app.get('/listall', routes.listall);
 app.get('/create', routes.create);
 app.post('/create', routes.createPost);
 app.get('/view', routes.preview);
