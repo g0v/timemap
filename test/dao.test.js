@@ -93,5 +93,17 @@ describe('DAO Storage', function() {
       done();
     });
   });
+  it('List All DataView', function(done) {
+    this.timeout(5000);
+    var vizs = dao.DataView.List(function(err, data){
+      assert.equal(err, null);
+      assert.equal(data.length, 2);
+      var names = _.pluck(data, 'name');
+      assert(names.indexOf('my-test-thread') != -1, names);
+      assert(names.indexOf('napoleon') != -1, names);
+      assert.equal(names.indexOf('.gitkeep'), -1, '.gitkeep should not be in list');
+      done();
+    });
+  });
 });
 
